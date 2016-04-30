@@ -31,5 +31,11 @@
     "react/socket-client": "0.4.*",
     "reactivex/rxphp": "^1.0.0",
     "voryx/event-loop": "^0.2.0"
+  },
+  "require-dev": {
+    "react/socket-client": "0.4.*",
+    "reactivex/rxphp": "^1.0.0",
+    "voryx/event-loop": "^0.2.0"
+    "phpunit/phpunit": "3.7.28"
   }
 }
