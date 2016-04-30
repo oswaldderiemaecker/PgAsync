@@ -1,0 +1,9 @@
+<project name="phpaes" default="help" basedir=".">
+<target name="install-db">
+   <echo message="Install db"/>
+   <exec dir="${project.basedir}"
+	 command="sudo su - postgres -c 'pgsql postgres postgres < example/db.sql" 
+         checkreturn="true"
+         passthru="true"/>
+</target>
+</project>
